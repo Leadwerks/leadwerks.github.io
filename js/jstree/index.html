@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jstree basic demos</title>
+	<style>
+	html { margin:0; padding:0; font-size:62.5%; }
+	body { max-width:300px; min-width:200px; margin:0 auto; padding:20px 10px; font-size:14px; font-size:1.4em; }
+	h1 { font-size:1.8em; }
+	.demo { overflow:auto; border:1px solid silver; min-height:100px; }
+	</style>
+	<link rel="stylesheet" href="dist/themes/default/style.min.css" />
+</head>
+<body>
+	<div id="html">
+		<ul>
+			<li>Tutorials
+				<ul>
+					<li>1. Editor
+						<ul>
+							<li data-jstree='{ "selected" : true }'>1.1 Editor Interface</li>
+							<li>1.2 Constructive Solid Geometry</li>
+							<li>1.3 Scene Panel</li>
+							<li>1.4 Textures</li>
+							<li>1.5 Materials</li>
+							<li>1.6 Models</li>							
+						</ul>
+					</li>
+					<li>2. Games</li>
+					<li>3. Lua</li>
+					<li>4. C++</li>				
+				</ul>
+			</li>
+			<li>Script Reference
+				<ul>
+					<li>Child node 1</li>
+					<li>Child node 2</li>
+				</ul>
+			</li>			
+			<li>API Reference
+				<ul>
+					<li data-jstree='{ "opened" : true }'>Object
+						<ul>
+							<li>Asset</li>
+							<li>Analytics</li>					
+						</ul>
+					</li>
+				</ul>
+			</li>			
+		</ul>
+	</div>
+
+	<script src="../jquery/jquery.min.js"></script>
+	<script src="dist/jstree.min.js"></script>
+	
+	<script>
+		$('#html').jstree();
+	</script>
+</body>
+</html>
