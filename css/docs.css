@@ -1,0 +1,258 @@
+div.docscontent {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	right: 0;
+	left: 290px;
+}
+
+.toc
+{
+	font-size: 13px;
+}
+
+div.note {
+	background-color: #eae672;
+	font-weight: bold;
+	width: 400px;
+	padding: 20px;
+	margin: auto;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.3);
+}
+
+div.scroll-wrapper {
+	-webkit-overflow-scrolling: touch;
+  	overflow-y: scroll;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+.tipue_search_content_url { display: none; }
+
+div.docspage img {
+	max-width: 100%;
+}
+
+.index uk {
+	width: 100% !important;
+}
+
+.index li {
+	margin-left: -24px !important;
+	width: 100% !important;
+}
+
+.index a {
+	width: 100% !important;
+}
+
+.tipue_search_right {
+	margin-bottom: 12px;
+}
+
+.tipue_search_content_title {
+	font-size: 110%;
+	margin-top: 12px;
+	margin-bottom: 4px;
+}
+
+.searchresults ul {
+	padding-left: 0;
+}
+
+.searchresults li {
+	padding: 2px;
+	display: inline-block;
+}
+
+.city {
+	position: absolute;
+	left: 4px;
+	right: 4px;
+	top: 4px;
+	bottom: 4px;
+	margin: 4px;
+	/*border: 1px solid #444;
+	overflow: scroll;*/
+}
+
+.tipue_search_right input
+{
+	border: 0;
+	padding: 4px;
+	background: #ddd;
+	box-sizing: border-box;
+}
+
+.city a { cursor: pointer; }
+.city a:hover { text-decoration: none; cursor: pointer; }
+
+div.docsnav {
+	padding: 4px;
+}
+
+.toctabs {
+	border-spacing: 4px 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #16191C;
+	/*border: 1px solid #000;
+	border-collapse: collapse;*/
+}
+
+.toctabs td {	
+	margin: 0;
+	margin-left: 4px;
+	margin-top: 4px;
+	/*border: 1px solid #000;
+	border-collapse: collapse;*/
+}
+
+.toctab {
+	margin: 4px;
+	width: 33%;
+	cursor: pointer;
+	padding: 6px;
+	/*border: 1px solid #000;*/
+	background: #ddd;
+	padding-top: 7px;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.toctab_selected {
+	background: #fff;
+	text-align: center;
+	width: 33%;
+	cursor: pointer;
+	/*border-collapse: collapse;*/
+	padding: 6px;
+	/*border: 1px solid #000;*/
+	/*border-bottom: 1px solid #fff !important;
+	border-collapse: collapse;*/
+}
+
+/*.docsbody h2 { display: inline-block; }
+.docsbody h3 { display: inline-block; }
+.docsbody h4 { display: inline-block; }*/
+
+div.docswrapper {
+	overflow: hidden; border: 0; padding: 0; margin: 0; position: absolute; top: 61px; bottom: 0; width: 100%;
+}
+
+div.docspage img {
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+div.apireference ul {
+	padding-left: 0;
+	margin-top: 0;
+	margin-left: 16px;
+}
+
+/*div.docspage ul {
+	padding-left: 0;
+	margin-top: 0;
+	margin-left: 16px;
+}*/
+
+.docsbreadcrumbs {
+	margin-bottom: 8px;
+	font-size: 80%;
+}
+
+pre {
+	padding: 8px; border: 1px solid #ddd; font-family: Courier New,Courier;font-size: 9pt;
+	
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+@media screen and (max-width: 900px) {
+	div.docsnav { display: none; }
+	div.docscontent { left: 0 !important; }
+	div.docswrapper { top: 60px; }
+}
+
+.language_controls {
+	float: right;
+	font-weight: bold;
+	margin: 2px;
+	color: #bbb;
+	padding: 0;
+	padding-bottom: 0px;
+}
+
+.language_controls li {
+	display: inline;
+	list-style-type: none;
+	font-size: 9pt;
+	color: #888;
+}
+
+li.language_inactive_control {
+	padding: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	color: #888;
+	border: 1px solid #888;
+	border-radius: 6px;		
+}
+
+.language_controls a {
+	padding: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	color: #bbb;
+	text-decoration: none;
+	border: 1px solid #bbb;
+	border-radius: 6px;	
+}
+
+.language_controls a:hover {
+	color: #888;
+	border: 1px solid #888;
+	text-decoration: none;
+}
+
+.docspage {
+	padding: 0; margin: 0;
+}
+
+.docspage h2 { font-size: 130%; }
+.docspage h2 { font-weight: bold; font-size: 120%; margin-top: 12px; margin-bottom: 4px; }
+.docspage h3 { font-weight: normal; font-size: 110%; margin-top: 12px; margin-bottom: 4px; }
+.docspage h4 { font-weight: normal; font-size: 100%; margin-top: 12px; margin-bottom: 4px; }
+
+.docstitle { margin-bottom: 10px; }
+
+/*.toc a:hover {
+	text-decoration: none;
+}*/
+
+div.toc {
+	margin-bottom: 8px;
+}
+
+.toc ul {
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.toc li {
+	list-style-type: none;
+	margin-left: 0;
+}
