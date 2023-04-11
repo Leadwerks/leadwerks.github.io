@@ -6,7 +6,8 @@
 
 .markdown-body
 {
-  color: #fff;
+  /*color: #fff;*/
+  color: #ddd;
   background-color: #1a1a1a;
 }
 
