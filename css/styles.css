@@ -108,7 +108,7 @@ td.tab{width:20%;margin:0;border:1px solid #ccc;background-color:#fff;box-shadow
 td.tab div{width:100%;height:100%;}
 td.tab a{color:#888;text-decoration:none;}
 td.tab a:hover{color:#666;}
-td.tab_pressed{font-weight:bold;width:20%;margin:0;color:#000;border:1px solid #ccc;background-color:#fff;border-bottom:0;}
+td.tab_pressed{font-weight:bold;width:20%;margin:0;color:#888;border:1px solid #ccc;background-color:#222;border-bottom:0;}
 div.content{width:100%;font-family:"HelveticaNeue-Light", 'Segoe UI Light', sans-serif;}
 div.outer{width:100%;position:relative;margin-top:12px;}
 div.inner{position:absolute;width:350px;padding-left:12px;padding-right:12px;top:0;font-size:110%;left:50%;margin-left:-490px;}
