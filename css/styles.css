@@ -103,7 +103,7 @@ div.pagelinksblock{width:100%;overflow:auto;margin:auto;padding:0;}
 a.actionbutton{text-decoration:none;font-weight:bold;white-space:nowrap;text-transform:uppercase;color:#fff;background:/*#08E8C0*/#008bff;border-radius:4px;padding:12px;display:inline-block;font-size:12pt;margin-top:16px;margin-bottom:0px;}
 a.actionbutton:hover{background:/*#0DF7CE*/#31A1FF;text-decoration:none;}
 div.middleblock{text-align:center;margin-left:auto;margin-right:auto;vertical-align:middle;}
-table.tabblock{width:980px;background:#eee;font-family:"HelveticaNeue-Light", 'Segoe UI Light', sans-serif;font-size:9.5pt;border-collapse:collapse;padding:0;margin:0;width:100%;text-align:center;vertical-align:middle;color:#999;line-height:290%;}
+table.tabblock{width:980px;font-family:"HelveticaNeue-Light", 'Segoe UI Light', sans-serif;font-size:9.5pt;border-collapse:collapse;padding:0;margin:0;width:100%;text-align:center;vertical-align:middle;color:#999;line-height:290%;}
 td.tab{width:20%;margin:0;border:1px solid #ccc;background-color:#fff;box-shadow:inset 0px 0px 8px rgba(0,0,0,0.07);font-weight:bold;}
 td.tab div{width:100%;height:100%;}
 td.tab a{color:#888;text-decoration:none;}
