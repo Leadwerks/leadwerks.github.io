@@ -7,7 +7,7 @@
    width="480"
    height="192"
    viewBox="0 0 480 192"
-   sodipodi:docname="leadwerks_logo.svg"
+   sodipodi:docname="leadwerks_small.svg"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -97,7 +97,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="2.4125"
      inkscape:cx="240"
-     inkscape:cy="96.373057"
+     inkscape:cy="96.787565"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -113,7 +113,8 @@
        id="g10"
        transform="scale(0.1)">
       <g
-         id="g14">
+         id="g14"
+         transform="translate(0,127.46114)">
         <g
            id="g16"
            clip-path="url(#clipPath20)">
@@ -540,7 +541,8 @@
         </g>
       </g>
       <g
-         id="g232">
+         id="g232"
+         transform="translate(0,127.46114)">
         <g
            id="g234"
            clip-path="url(#clipPath238)">
@@ -855,7 +857,8 @@
         </g>
       </g>
       <g
-         id="g394">
+         id="g394"
+         transform="translate(0,127.46114)">
         <g
            id="g396"
            clip-path="url(#clipPath400)">
@@ -1170,7 +1173,8 @@
         </g>
       </g>
       <g
-         id="g556">
+         id="g556"
+         transform="translate(0,127.46114)">
         <g
            id="g558"
            clip-path="url(#clipPath562)">
@@ -1485,7 +1489,8 @@
         </g>
       </g>
       <g
-         id="g718">
+         id="g718"
+         transform="translate(0,127.46114)">
         <g
            id="g720"
            clip-path="url(#clipPath724)">
@@ -1808,7 +1813,8 @@
         </g>
       </g>
       <g
-         id="g884">
+         id="g884"
+         transform="translate(0,127.46114)">
         <g
            id="g886"
            clip-path="url(#clipPath890)">
@@ -2131,7 +2137,8 @@
         </g>
       </g>
       <g
-         id="g1050">
+         id="g1050"
+         transform="translate(0,127.46114)">
         <g
            id="g1052"
            clip-path="url(#clipPath1056)">
@@ -2454,7 +2461,8 @@
         </g>
       </g>
       <g
-         id="g1216">
+         id="g1216"
+         transform="translate(0,127.46114)">
         <g
            id="g1218"
            clip-path="url(#clipPath1222)">
@@ -2781,7 +2789,8 @@
         </g>
       </g>
       <g
-         id="g1384">
+         id="g1384"
+         transform="translate(0,127.46114)">
         <g
            id="g1386"
            clip-path="url(#clipPath1390)">
@@ -3104,7 +3113,8 @@
         </g>
       </g>
       <g
-         id="g1550">
+         id="g1550"
+         transform="translate(0,127.46114)">
         <g
            id="g1552"
            clip-path="url(#clipPath1556)">
