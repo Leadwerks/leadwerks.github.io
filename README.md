@@ -1,2 +1,1 @@
-# ultraengine.github.io
-Static web assets
+# Static web assets
