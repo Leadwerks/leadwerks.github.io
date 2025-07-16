@@ -1,1 +1,131 @@
+<head>
+<link href="layout.css" type="text/css" rel="stylesheet" />
+</head>
+
+<h1>Toolbar</h1>
+
+<p>
+
+<img src="new.bmp"></img> <b><font size=4>New</font></b>
+<br>This will open a new blank map file. 
+
+<p><img src="open.bmp"></img> <b><font size=4>Open...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+O</font></b>
+<br>This will bring up a browse window from which you can load maps. The file type will default to .3dw (3D world).  If you wish to load another file format, use the Import menu item.
+
+<p><img src="save.bmp"></img> <b><font size=4>Save&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+S</font></b>
+<br>This will save the current loaded map.
+
+<p><img src="cut.bmp"></img> <b><font size=4>Cut&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+X</font></b>
+<br>Deletes the currently selected objects from the map, and stores a copy of them in memory to be pasted later.
+
+<p><img src="copy.bmp"></img> <b><font size=4>Copy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+C</font></b>
+<br>Copies the currently selected objects into memory without removing the original.
+
+<p><img src="paste.bmp"></img> <b><font size=4>Paste&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+V</font></b>
+<br>Pastes a copy of any cut or copied objects into the current map.  Pasted objects will appear in the exact same position as the originals, but will be selected so that you can move them wherever you like.
+
+<p><img src="wireframe.bmp"></img> <b><font size=4>Wireframe</font></b>
+<br>Switches the current viewport to <i>wireframe render mode</i>.
+
+<p><img src="solid.bmp"></img> <b><font size=4>Solid</font></b>
+<br>Switches the current viewport to <i>solid render mode</i>.
+
+<p><img src="textured.bmp"></img> <b><font size=4>Textured</font></b>
+<br>Switches the current viewport to <i>textured render mode</i>.
+
+<p><img src="lighting.bmp"></img> <b><font size=4>Lighting</font></b>
+<br>Switches the current viewport to <i>lighting render mode</i>.
+
+<p><img src="textured+lighting.bmp"></img> <b><font size=4>Textured+Lighting</font></b>
+<br>Switches the current viewport to <i>textured+lighting render mode</i>.
+
+<p><img src="visgroup.bmp"></img> <b><font size=4>Vis Group</font></b>
+<br>Switches the current viewport to <i>visgroup render mode</i>.
+
+<p><img src="view3d.bmp"></img> <b><font size=4>Perspective</font></b>
+<br>Switches the current viewport to <i>perspective render view</i>.
+
+<p><img src="viewxy.bmp"></img> <b><font size=4>Front - XY</font></b>
+<br>Switches the current viewport to <i>front - XY render view</i>.
+
+<p><img src="viewxz.bmp"></img> <b><font size=4>Top - XZ</font></b>
+<br>Switches the current viewport to <i>top - XZ render view</i>.
+
+<p><img src="viewzy.bmp"></img> <b><font size=4>Side - ZY</font></b>
+<br>Switches the current viewport to <i>side - ZY render view</i>.
+
+<p><img src="select object.bmp"></img> <b><font size=4>Select Object&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Z</font></b>
+<br>Switches to <i>select object mode</i>.
+
+<p><img src="select subobject.bmp"></img> <b><font size=4>Select Subobject&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X</font></b>
+<br>Switches to <i>select subobject mode</i>.
+
+<p><img src="select vertex.bmp"></img> <b><font size=4>Select Object&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C</font></b>
+<br>Switches to <i>select vertex mode</i>.
+
+<p><img src="turnx.bmp"></img> <b><font size=4>Rotate X</font></b>
+<br>Rotates the selected object(s) 90 degrees around the X axis.
+
+<p><img src="turny.bmp"></img> <b><font size=4>Rotate Y</font></b>
+<br>Rotates the selected object(s) 90 degrees around the Y axis.
+
+<p><img src="turnz.bmp"></img> <b><font size=4>Rotate Z</font></b>
+<br>Rotates the selected object(s) 90 degrees around the Z axis.
+
+<p><img src="group.bmp"></img> <b><font size=4>Group&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+G</font></b>
+<br>This will group all selected objects together.  If you select any object in the group, the entire group will be selected.
+
+<p><img src="ungroup.bmp"></img> <b><font size=4>Ungroup&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+U</font></b>
+<br>This will ungroup any selected grouped objects.
+
+<p><img src="carve.bmp"></img> <b><font size=4>Carve</font></b>
+<br>Performs a CSG carve operation.  Any selected solids will carve their volume out of any overlapping unselected solids.
+
+<p><img src="hollow.bmp"></img> <b><font size=4>Hollow</font></b>
+<br>Opens the <i>hollow dialog</i> to perform a CSG hollow operation.  Any selected solids will be hollowed by the thickness indicated in the Hollow dialog.  If a negative thickness is given, the solid will be hollowed outwards.
+
+<p><img src="split.bmp"></img> <b><font size=4>Slice Plane</font></b>
+<br>Switches to <i>slice plane mode</i>.  You can draw a line across any solids.  If no objects are selected, any solids the line intersects will be sliced.  If any object is selected, only selected solids will be sliced.
+
+<p><img src="extrude.bmp"></img> <b><font size=4>Extrude Face</font></b>
+<br>Opens the <i>extrude face dialog</i>.  Any solid faces selected will be extruded by the amount indicated in the <i>extrude face dialog</i>.  If the editor is in <i>object selection mode</i> all faces of the selected solid(s) will be extruded.
+
+<p><img src="mirror.bmp"></img> <b><font size=4>Mirror&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+M</font></b>
+<br>Opens the <i>mirror dialog</i>, allowing you to mirror all selected objects on any axis.
+
+<p><img src="get texture.bmp"></img> <b><font size=4>Get Texture</font></b>
+<br>Switches to <i>get texture mode</i>, allowing you to select any texture in the scene.  The mouse cursor will change to a dropper icon, and the texture on any object you click on will be made the current texture.
+
+<p><img src="apply texture.bmp"></img> <b><font size=4>Apply Texture&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+A</font></b>
+<br>Applies the current texture to all selected objects, faces, and subobjects in the scene.
+
+<p><img src="texturebrowser.bmp"></img> <b><font size=4>Texture Browser&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+T</font></b>
+<br>Opens the <a href="texturebrowser.htm">texture browser</a>, allowing you to view and select textures.
+
+<p><img src="lock.bmp"></img> <b><font size=4>Texture Lock</font></b>
+<br>When enabled, texture lock will lock solids' texture mapping in place when they are moved or rotated.
+
+<p><img src="mask.bmp"></img> <b><font size=4>Hide Mask</font></b>
+<br>When in <i>select subobject mode</i>, this will hide the red selection mask shown on selected faces and subobjects.
+
+<p><img src="meshbrowser.bmp"></img> <b><font size=4>Model Browser&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shift+M</font></b>
+<br>Opens the <a href="modelbrowser.htm">model browser</a>, allowing you to view and select models.
+
+<p><img src="terrain.bmp"></img> <b><font size=4>Terrain Editing</font></b>
+<br>Opens the <a href="terrain.htm">terrain editing dialog</a>, allowing you to create and modify terrain geometry.
+
+<p><img src="lights.bmp"></img> <b><font size=4>Render Lights</font></b>
+<br>Opens the <a href="lights.htm">render lights dialog</a>, allowing you to calculate lighting.  You must have one viewport in <i>lighting</i> or <i>textured+lighting</i> render mode to view map lighting.
+
+<p><img src="options.bmp"></img> <b><font size=4>Options</font></b>
+<br>Opens the <a href="options.htm">options dialog</a>, allowing you to adjust editor options like video settings and interface colors.
+
+<p><img src="help.bmp"></img> <b><font size=4>Help Contents</font></b>
+<br>Displays the 3D World Studio User's Guide.
+
+
+
+
+
+
 

@@ -1,0 +1,60 @@
+<head>
+<link href="layout.css" type="text/css" rel="stylesheet" />
+</head>
+
+<h1>Lighting Models</h1>
+
+Models are lit with vertex lights.  They will cast and receive shadows.
+
+<p><center><img src="meshes16.jpg"></img></center>
+
+<p><h2>Vertex Lighting</h2>
+Vertex lighting works by calculating the light at each vertex, and coloring it accordingly.
+When rendering a triangle, the color for each pixel on the surface is interpolated between the three vertices' values.
+
+<p><center><img src="meshes17.jpg"></img>
+<br><font size=1>Each pixel color on the triangle is interpolated between the vertices.</font></center>
+
+<p>Models cast shadows onto brushes.
+
+<p><center><img src="meshes18.jpg"></img></center>
+
+<p>Models receive shadows from other objects as well, but only if a vertex is blocked from the light.
+
+<p><center><img src="meshes19.jpg"></img>
+<br><font size=1>The floating box blocks the model vertex on the left, creating a fuzzy shadow.</font></center>
+
+<p>If a vertex is not blocked from the light, no shadow will be created.
+
+<p><center><img src="meshes20.jpg"></img>
+<br><font size=1>The floating box blocks doesn't block any vertices; the whole model is lit without a shadow.</font></center>
+
+<p>To get better lighting results, your models should be <i>tesselated</i>.
+This means splitting large triangles up into lots of smaller triangles.
+
+<p><center><img src="meshes21.jpg"></img>
+<br><font size=1>The sides of this cylinder are made of long skinny triangles, and will light poorly.</font></center>
+
+<p><center><img src="meshes22.jpg"></img>
+<br><font size=1>The tesselated model will light much better.</font></center>
+
+<p>Although tesselation increases the model polycount, this effect is generally negligible.
+Models are rendered very fast already.
+A few extra triangles won't make much of a difference in terms of rendering speed, but they will greatly improve the appearance of your scene.
+
+<p>Sometimes adjacent models will cast unwanted shadows on each other, as in the image below.
+
+<p><center><img src="meshes24.jpg"></img></center>
+
+<p>This can be fixed by disabling shadow-casting for the problematic models.
+Select the <i>Edit>Properties</i> menu item.
+Add a new key called <i>CastMeshShadows</i> and set the value to 0.
+
+<p><center><img src="meshes25.jpg"></img></center>
+
+<p>Press <i>apply</i> to enact your changes and re-light the scene.
+
+<p><center><img src="meshes26.jpg"></img></center>
+
+<p>You can also disable shadow-casting on brushes by adding a key called <i>CastBrushShadows</i> and setting it to 0.
+

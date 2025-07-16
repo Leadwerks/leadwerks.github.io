@@ -1,0 +1,40 @@
+<head>
+<link href="layout.css" type="text/css" rel="stylesheet" />
+</head>
+
+<h1>Solids Overview</h1>
+
+<table>
+<td>
+Solids are a type of geometry that follow special rules.
+Solids can be used to perform mathematical calculations that do not work with arbitrary polygons.
+These include binary space partitioning (BSP), constructive solid geometry operations (CSG), fast collision, and visibility occlusion.
+
+<p>Solids are characterized by the following:
+<li>Solids are simple geometric primitives, like a box or cylinder.
+<li>Unlike meshes, solids each contain unique vertex and polygon data.
+<li>Solids are lightmapped, and can cast and receive shadows.
+
+<p>Solids are used for the following:
+<li>Form the basic shape of your scene with walls and floors.
+<li>Create invisible trigger fields the player walks into.
+<li>Create portal zones and antiportals for portal-based engines.
+
+</td>
+
+<td valign=top>
+<img src="brushes01.jpg"></img>
+</td>
+
+</table>
+
+<p>Solid geometry must follow the following rules:
+<li>All faces must be coplanar.  This means that all the vertices of a face lie along the same plane.
+
+<center><p><img src="brushes02.jpg"></img>
+<br><font size=1>Vertices have been moved to make the selected face non-coplanar.</font>
+</center>
+
+<p><li>Solids must be convex, not concave.  This means that all the faces must point out, away from each other. 
+<center><p><img src="brushes03.jpg"></img>
+</center>

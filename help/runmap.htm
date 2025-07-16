@@ -1,0 +1,18 @@
+<head>
+<link href="layout.css" type="text/css" rel="stylesheet" />
+</head>
+
+<h1>Run Map Dialog</h1>
+The run map dialog allows you to save or export a copy of the loaded map, and launch a series of user-defined programs.  You can use this to compile and/or launch the map in your own 3D engine.
+
+<p>You can launch up to three programs, each with their own command line parameters.  The execution of the first program will be completed before the second program is executed, so you can run a series of compilers.
+
+<p>The default setup will export a .map file and compile a .dif for the Torque engine.  You can add your own engine executable if you want to launch your engine after the map is compiled.  If you wish to use Torque <a href="entities03.htm">entity classes</a>, you must specify the Torque entity definitions file ("torque.def") in the <a href="options.htm">options dialog</a>.
+
+<p><h2>Keywords</h2>
+The following keywords will affect the executable parameters strings:
+<li>mapfile$ - full path and file name of the saved map file.
+<li>mapname$ - the name of the saved map file, with no path or extension.
+<li>mappath$ - the fullpath of the saved map, with no file name.
+
+<p><img src="runmap.png"></img>

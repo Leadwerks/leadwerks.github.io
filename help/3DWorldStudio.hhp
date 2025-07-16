@@ -1,0 +1,14 @@
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.1 or later
+Compiled file=3DWorldStudio.chm
+Contents file=3DWorldStudio.hhc
+Default topic=welcome.htm
+Display compile progress=No
+Full-text search=Yes
+Language=0x409 English (United States)
+Title=3D World Studio User's Guide
+
+
+[INFOTYPES]
+

@@ -1,0 +1,16 @@
+<td>
+<h1>Transparent Textures</h1>
+Transparent and masked textures may be created, using a 32-bit image with an alpha channel.
+Alpha channels are supported in the .tga, .png, and .dds formats.
+The following rules are applied when loading 32-bit textures:
+<li>If all pixel alpha values are 255, the texture is solid.
+<li>If all pixel alpha values are either 0 or 255, the texture is masked.
+<li>If any pixel alpha values are in the range of 1-254, the texture is transparent.
+
+<p>Transparent textures will affect lights, and can be used to create dramatic effects.
+Objects painted with a transparent texture will not be lit.
+This is because lightmaps would darken areas that are supposed to be transparent.
+
+<p><center><img src="docs/3DWorldStudio/textures06.jpg"></img></center>
+
+</td>

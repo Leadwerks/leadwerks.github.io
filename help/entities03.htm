@@ -1,0 +1,80 @@
+<head>
+<link href="layout.css" type="text/css" rel="stylesheet" />
+</head>
+
+<h1>Special Entities</h1>
+
+Some entities have special behavior in the editor.
+Light entities are recognized by the editor, and used to render lighting in the scene.
+The editor recognizes both its own 3D World Studio light classes, as well as Torque Engine light classes.
+
+<p>If you wish to use Torque <a href="entities03.htm">entity classes</a>, you must specify the Torque entity definitions file ("torque.def") in the <a href="options.htm">options dialog</a>.
+
+<p><b>Point Lights</b>
+<br>Point lights emit light in all directions.
+
+<p>3D World Studio point light class:
+<table width=100% bgcolor=E0E0E0>
+<td><i>
+Classname light
+<br>color - light color
+<br>intensity - light intensity
+<br>range - light range
+<br>linearfalloff - indicate linear falloff, or inverse square falloff
+</i></td>
+</table>
+
+<p>Torque Engine point light class:
+<table width=100% bgcolor=E0E0E0>
+<td><i>
+Classname light_omni
+<br>color - light color
+<br>intensity - light intensity
+<br>falloff2 - light range
+</i></td>
+</table>
+
+<p><b>Spotlights</b>
+<br>A spotlight emits a cone of light.
+These are useful for simulating artificial light sources.
+
+<p>3D World Studio spotlight class:
+<table width=100% bgcolor=E0E0E0>
+<td><i>
+Classname spotlight
+<br>color - light color
+<br>intensity - light intensity
+<br>range - light range
+<br>innerconeangle - start falloff angle
+<br>outerconeangle - end falloff angle
+<br>angles - euler angles for spotlight direction
+</i></td>
+</table>
+
+<p>Torque Engine spotlight class:
+<table width=100% bgcolor=E0E0E0>
+<td><i>
+Classname light_spot
+<br>color - light color
+<br>intensity - light intensity
+<br>theta - start falloff angle
+<br>phi - end falloff angle
+<br>falloff2 - light range
+<br>target - the name of the target entity the spotlight points at
+</i></td>
+</table>
+
+<p><b>Directional Lights</b>
+<br>A directional light is used to approximate a point light that is infinitely far away.
+Use these for lighting outdoor scenes.
+The Torque engine does not have a directional light class.
+
+<p>3D World Studio directional light class:
+<table width=100% bgcolor=E0E0E0>
+<td><i>
+Classname sunlight
+<br>color - light color
+<br>intensity - light intensity
+<br>angles - euler angles for sunlight direction
+</i></td>
+</table>
