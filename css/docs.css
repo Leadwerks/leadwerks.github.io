@@ -171,7 +171,7 @@ div.apireference ul {
 
 pre {
 	padding: 8px; border: 1px solid #ddd; font-family: Courier New,Courier;font-size: 9pt;
-	
+	max-height: 600px;
 	white-space: pre-wrap;       /* css-3 */
 	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
 	white-space: -pre-wrap;      /* Opera 4-6 */
