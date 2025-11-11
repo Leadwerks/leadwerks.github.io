@@ -123,7 +123,7 @@
 .markdown-body code,
 .markdown-body kbd,
 .markdown-body pre {
-  max-height: 600px;
+  max-height: 800px;
   background-color: #101010;
   font-family: monospace,monospace;
   padding-top: 16px;
