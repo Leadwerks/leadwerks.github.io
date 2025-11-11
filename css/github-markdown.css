@@ -843,6 +843,7 @@
 }
 
 .markdown-body pre>code {
+  max-height:600px;
   padding: 0;
   margin: 0;
   margin-top:16px;
