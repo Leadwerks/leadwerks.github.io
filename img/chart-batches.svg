@@ -6,7 +6,7 @@
    version="1.1"
    id="svg384"
    sodipodi:docname="chart-batches.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,17 +24,23 @@
      inkscape:deskcolor="#505050"
      showgrid="true"
      inkscape:zoom="2.1061094"
-     inkscape:cx="327.3809"
+     inkscape:cx="326.9061"
      inkscape:cy="126.53664"
      inkscape:window-width="1920"
-     inkscape:window-height="1001"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg384">
     <inkscape:grid
        type="xygrid"
-       id="grid3664" />
+       id="grid3664"
+       originx="0"
+       originy="0"
+       spacingy="1"
+       spacingx="1"
+       units="px"
+       visible="true" />
   </sodipodi:namedview>
   <path
      fill="#1991ff"
@@ -90,7 +96,7 @@
        sodipodi:role="line"
        id="tspan4666"
        x="96"
-       y="71">Ultra Engine</tspan></text>
+       y="71">Leadwerks 5</tspan></text>
   <text
      xml:space="preserve"
      style="font-weight:bold;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:end;text-anchor:end;opacity:0.8;fill:#3771c8"
